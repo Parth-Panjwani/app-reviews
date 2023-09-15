@@ -2,7 +2,8 @@ import { Data, PlayStoreConfig, PublishedReviews } from "./global-types";
 import { google, androidpublisher_v3 } from "googleapis";
 import * as googlePlayScraper from "google-play-scraper";
 import { get } from "android-versions";
-import * as fs from "fs";
+const fs = require('fs');
+const util = require('util');
 
 export default class PlayStoreReviews {
     SCOPES = ['https://www.googleapis.com/auth/androidpublisher'];

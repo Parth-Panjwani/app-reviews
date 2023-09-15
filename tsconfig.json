@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        "target": "es5",
         "module": "commonjs",
         "declaration": true,
         "resolveJsonModule": true,
@@ -13,7 +12,7 @@
     },
     "include": [
         "src"
-    ],
+, "index.js"    ],
     "exclude": [
         "node_modules",
         "**/__tests__/*"
